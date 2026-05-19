@@ -205,8 +205,8 @@
 532 set_int_rank_3 ## BROKEN, can't read middle value
 533 set_int_rank_5
 534 math_int_rank_lerp
-535 set_int_difficulty
-536 set_float_difficulty
+535 set_int_difficulty_ex
+536 set_float_difficulty_ex
 537 spellcard_start_difficulty
 538 spellcard_start_difficulty_1
 539 spellcard_start_difficulty_2

@@ -152,7 +152,7 @@
 611 polygon_ring
 612 polygon_rectangle_hollow
 613 polygon_line
-614 __polygon_unknown_A
+614 polygon_triangle
 
 !ins_signatures
 ## Section A
@@ -465,22 +465,22 @@
 31 __DecelParabolaE
 
 !enum(name="RenderMode")
-0 RenderMode0	# Normal
-1 RenderMode1	# Normal
-2 RenderMode2	# Normal
-3 RenderMode3	# Normal
-4 RenderMode4	# Normal
-5 RenderMode5	# Normal
-6 RenderMode6	# Normal
-7 RenderMode7	# Normal
-8 RenderMode8	# Normal
+0 Sprite2D					# Normal
+1 Sprite2DRotated			# Normal
+2 Sprite2DSmooth			# Normal
+3 Sprite2DRotatedSmooth		# Normal (DO NOT USE)
+4 Sprite3DBillboard			# Normal
+5 SpriteMode3D				# Normal
+6 Sprite3DBillboardSpecial	# Normal
+7 Sprite3DSpecial			# Normal
+8 Object3D					# Normal
 9 TexturedRing
-10 RenderMode10	# SPECIAL
-11 RenderMode11	# 
-12 RenderMode12	# 
+10 RenderMode10 # Allocates special data
+11 RenderMode11
+12 RenderMode12
 13 TexturedArcA
 14 TexturedArcB
-15 RenderMode15	# Normal (RenderMode8 with fog)
+15 Object3DSpecial			# Normal
 16 PolygonRectangle # [TRIANGLESTRIP x 2, ZWRITE = False]
 17 Polygon # [TRIANGLEFAN x I0, ZWRITE = False, ZFUNC = CmpAlways]
 18 PolygonHollow # [LINESTRIP x I0]
@@ -493,19 +493,19 @@
 25 TexturedRing3D
 26 PolygonLine # [LINESTRIP x 1, ZWRITE = False]
 27 PolgonRectangleHollow # [LINESTRIP x 4, ZWRITE = False]
-28 __PolygonUnknownA # [TRIANGLESTRIP x 1, ZWRITE = False]
+28 PolygonTriangle # [TRIANGLESTRIP x 1, ZWRITE = False]
 
 !enum(name="BlendMode")
 0 Normal
 1 Additive
-2 BlendMode2
-3 BlendMode3
-4 BlendMode4
-5 BlendMode5
-6 BlendMode6
-7 BlendMode7
-8 BlendMode8
-9 BlendMode9
+2 Subtractive
+3 None
+4 Invert
+5 Multiply
+6 WTF
+7 Mask
+8 Darken
+9 Lighten
 10 BlendMode10
 11 BlendMode11
 
@@ -523,13 +523,11 @@
 2 Mirror
 
 !enum(name="ResolutionMode")
-0 ResolutionMode0
-1 ResolutionMode1
-2 ResolutionMode2
-3 ResolutionMode3
-4 ResolutionMode4
-5 ResolutionMode5
-6 ResolutionMode6
+0 NoScaling
+1 Scaled
+2 HalfScaled
+3 ScaledB
+4 HalfScaledB
 
 !enum(name="AnchorModeX")
 0 Center
@@ -546,7 +544,7 @@
 1 GradientColorOnly
 2 HorizontalGradient
 3 VerticalGradient
-4 ColorMode4
+4 ColorBlend
 
 !enum(name="RotationMode")
 0 XYZ
@@ -558,9 +556,9 @@
 6 None
 
 !enum(name="OriginMode")
-0 OriginMode0
-1 OriginMode1
-2 OriginMode2
+0 Window
+1 FixedResolution
+2 FullResolution
 
 # WORLD_LAYER_COUNT 37
 # WORLD_LAYER_COUNT 24

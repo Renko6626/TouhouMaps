@@ -429,18 +429,29 @@
 31 __DecelParabolaE
 
 !enum(name="RenderMode")
+0 Sprite2D					# Normal
+1 Sprite2DRotated			# Normal
+2 Sprite2DSmooth			# Normal
+3 Sprite2DRotatedSmooth		# Normal (DO NOT USE)
+4 Sprite3DBillboard			# Normal
+5 SpriteMode3D				# Normal
+6 Sprite3DBillboardSpecial	# Normal
+7 Sprite3DSpecial			# Normal
+8 Object3D					# Normal
 
 !enum(name="BlendMode")
 0 Normal
 1 Additive
-2 BlendMode2
-3 BlendMode3
-4 BlendMode4
-5 BlendMode5
-6 BlendMode6
-7 BlendMode7
-8 BlendMode8
-9 BlendMode9
+2 Subtractive
+3 None
+4 Invert
+5 Multiply
+6 WTF
+7 Mask
+8 Darken
+9 Lighten
+10 BlendMode10
+11 BlendMode11
 
 !enum(name="RandMode")
 0 ReplayRNG
@@ -482,9 +493,9 @@
 6 None
 
 !enum(name="OriginMode")
-0 OriginMode0
-1 OriginMode1
-2 OriginMode2
+0 Window
+1 FixedResolution
+2 FullResolution
 
 !enum(name="AnmLayerIndex")
 

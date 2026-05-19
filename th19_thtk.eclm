@@ -87,7 +87,11 @@
 104 math_ror
 105 math_udiv
 106 math_umod
-#107 thcrap_print
+107 lookup_set_int
+108 lookup_set_float
+109 math_popcount
+110 lookup_int_ex
+111 lookup_float_ex
 
 ## Section B
 300 enemy_create_rel
@@ -368,6 +372,10 @@
 1051 player_add_bomb_fragments
 1052 opposite_player_add_bomb_fragments
 1053 drop_game_side
+1054 set_int_from_enemy
+1055 set_float_from_enemy
+1056 set_int_of_enemy
+1057 set_float_of_enemy
 
 !ins_signatures
 ## Section A
@@ -453,7 +461,11 @@
 104
 105
 106
-#107 m*D
+107 SSS*S
+108 fSf*f
+109 SS
+110 SSS*S
+111 fSf*f
 
 ## Section B
 300 mffSSS
@@ -733,6 +745,10 @@
 1051 S
 1052 S
 1053 S
+1054 SSS
+1055 fSS
+1056 SSS
+1057 fSS
 
 !gvar_names
 -10000 RAND_INT
