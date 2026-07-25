@@ -353,17 +353,17 @@
 2 Bottom
 
 !enum(name="RenderMode")
-0 RenderMode0
-1 RenderMode1
-2 RenderMode2
-3 RenderMode3
-4 RenderMode4
-5 RenderMode5
-6 RenderMode6
-7 RenderMode7
-8 RenderMode8
-9 RenderMode9
-10 RenderMode10 ## Calls some special function
+0 Sprite2D					# Normal
+1 Sprite2DRotated			# Normal
+2 Sprite2DSmooth			# Normal
+3 Sprite2DRotatedSmooth		# Normal
+4 Sprite3DBillboard			# Normal
+5 SpriteMode3D				# Normal
+6 Sprite3DBillboardSpecial	# Normal
+7 Sprite3DSpecial			# Normal
+8 Object3D					# Normal
+9 TexturedRing
+10 TexturedCloud # Allocates special data
 11 RenderMode11
 12 RenderMode12
 13 RenderMode13

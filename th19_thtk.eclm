@@ -344,7 +344,7 @@
 1022 music
 1023 __item_manager_unknown_int_A_set
 1026 __item_manager_unknown_int_A_average
-1027 __ghost_flags_unknown_A
+1027 __ghost_type_A
 1028 ghost_death_radius
 1029 ghost_death_damage
 1030 __ghost_set_unknown_C
@@ -357,7 +357,7 @@
 1037 opposite_spawn_ex_attack
 1038 __enemy_flag_unknown_C
 1039 __enemy_flag_unknown_D
-1040 __ghost_flags_unknown_B
+1040 __ghost_type_B
 1041 __enemy_flag_unknown_E
 1042 __ghost_flags_unknown_C
 # ZECL
@@ -765,7 +765,7 @@
 -9989 PLAYER_ANGLE
 -9988 PHASE_TIMER
 -9987 RAND_FLOAT_SIGNED
--9986 SPELL_TIMEOUT
+-9986 PHASE_TIMEOUT
 -9985 EI0
 -9984 EI1
 -9983 EI2
@@ -890,6 +890,11 @@
 -9865 PLAYER_BOMB_FRAGMENTS
 -9864 OPPOSITE_PLAYER_BOMB_FRAGMENTS
 -9863 OPPOSITE_GAME_SIDE
+-9862 STAGE_NUMBER
+-9861 GAME_MODE
+-9860 STORY_STAGE_NUMBER
+-9859 PLAYER_IS_CPU
+-9858 OPPOSITE_PLAYER_IS_CPU
 
 !gvar_types
 -10000 $
@@ -1031,3 +1036,8 @@
 -9865 $
 -9864 $
 -9863 $
+-9862 $
+-9861 $
+-9860 $
+-9859 $
+-9858 $

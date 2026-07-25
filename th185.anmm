@@ -473,7 +473,7 @@
 7 Sprite3DSpecial			# Normal
 8 Object3D					# Normal
 9 TexturedRing
-10 RenderMode10 # Allocates special data
+10 TexturedCloud  # Allocates special data
 11 RenderMode11
 12 RenderMode12
 13 TexturedArcA

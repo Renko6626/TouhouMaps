@@ -521,7 +521,7 @@
 7 Sprite3DSpecial			# Normal
 8 Object3D					# Normal
 9 TexturedRing
-10 RenderMode10 # Allocates special data
+10 TexturedCloud  # Allocates special data
 11 RenderMode11
 12 RenderMode12
 13 TexturedArcA
@@ -556,8 +556,8 @@
 42 PolygonStar # [TRIANGLEFAN x I0, ZWRITE = False, ZFUNC = CmpAlways]
 43 PolygonStarHollow # [LINESTRIP x I0]
 44 __PolygonStarStrip # [TRIANGLESTRIP x I0 * 2]
-45 __PolygonStarStrip # [TRIANGLESTRIP x I0 * 2]
-46 __PolygonStarStrip # [TRIANGLESTRIP x I0 * 2]
+45 __PolygonStarStrip2 # [TRIANGLESTRIP x I0 * 2]
+46 __PolygonStarStrip3 # [TRIANGLESTRIP x I0 * 2]
 47 __PolygonUnknownM
 48 __PolygonUnknownN
 
