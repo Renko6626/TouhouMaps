@@ -561,7 +561,7 @@
 2 FullResolution
 
 # WORLD_LAYER_COUNT 37
-# WORLD_LAYER_COUNT 24
+# WORLD_LAYER_A_COUNT 24
 # WORLD_LAYER_B_COUNT 13
 # UI_LAYER_COUNT 9
 !enum(name="AnmLayerIndex")
@@ -595,6 +595,7 @@
 21 Layer21
 22 Layer22
 23 Layer23 # Disables zwrite
+
 24 Layer24 # Disables zwrite
 25 Layer25
 26 Layer26

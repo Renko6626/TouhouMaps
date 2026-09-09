@@ -2,6 +2,7 @@
 # 95 and 103 don't have msg files
 !game_files
 6   th06.msgm
+61  th06nc.msgm
 7   th07.msgm
 8   th08.msgm
 9   th09.msgm
