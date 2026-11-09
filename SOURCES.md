@@ -1,5 +1,11 @@
 # Sources and import decisions
 
+Status update, 2026-11-10: semantic investigation is deferred. Read
+[the research handoff](docs/research-handoff-2026-11-10.md) before resuming.
+The choices below describe the initial import; native thtk signature priority,
+cross-version name correspondences, and blanket exclusion of `__` names are
+provisional import rules, not confirmed game semantics or integration approval.
+
 This document records the initial stock ECL snapshot. The maintained sources
 of truth are the native `.eclm` files; the audit JSON files describe this import,
 not a second editable encoding schema or a runtime generation input.
@@ -58,6 +64,12 @@ internal `__...`, and numbered special/debug names are not correspondence
 evidence. Each synthesized name records its other-style source name and donor
 version/ID in `docs/import-audit.json`; this is evidence for a naming extension,
 not an independent proof of equivalent game behavior.
+
+That exclusion describes what the importer did. A `__` prefix by itself does
+not establish an unknown function; the blanket rule was too coarse and can
+create unnecessary neutral names. Compiler-inherited entries and missing
+other-style spellings must also be distinguished from genuinely unknown game
+behavior, as detailed in the handoff.
 
 Where no unique correspondence exists, the fork uses neutral names. Inferred
 names that collide with an existing name also fall back to neutral names.

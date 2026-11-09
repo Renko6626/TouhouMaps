@@ -1,6 +1,11 @@
 # ECL collection design
 
-Status: approved in the Studio conversation on 2026-11-10.
+Status: repository layering approved in the Studio conversation on 2026-11-10.
+Semantic research and product integration are deferred by the user's later
+decision. The initial import at `39a2956` remains a provisional snapshot; its
+native thtk signature priority, generated names, and inferred correspondences
+are not individually approved or behaviorally validated. See the
+[research handoff](../../research-handoff-2026-11-10.md) before resuming.
 
 ## Purpose and scope
 
