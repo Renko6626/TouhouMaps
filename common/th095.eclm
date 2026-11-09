@@ -1,0 +1,298 @@
+!eclmap
+# Stock th95 native thecl definitions. Source: thpatch/thtk@892114a0fcaa0bbdaaecf3cb4ad56f758683fb40.
+# Tables: th08_fmts, th95_fmts. Later tables override earlier tables.
+# Global types: zero318 first, then Priw8 additions; see docs/import-audit.json.
+# Compiler-known fallback entries are not proof of game-side implementation.
+
+!ins_signatures
+0
+1
+2 S
+3 S
+4 to
+5 toS
+6 SS
+7 ff
+8 SS
+9 ff
+10 SS
+11 SS
+12 SS
+13 SS
+14 SS
+15 ff
+16 ff
+17 ff
+18 ff
+19 ff
+20 SSS
+21 SSS
+22 SSS
+23 SSS
+24 SSS
+25 fff
+26 fff
+27 fff
+28 fff
+29 fff
+30 S
+31 S
+32 ff
+33 ff
+34 fffff
+35 ffff
+36 fSSSffff
+37 f
+38 ffff
+39 fffff
+40 SSto
+41 ffto
+42 SSto
+43 ffto
+44 SSto
+45 ffto
+46 SSto
+47 ffto
+48 SSto
+49 ffto
+50 SSto
+51 ffto
+52 N
+53
+54 S
+55 S
+56 SSSSSS
+57 SS
+58 S
+59 S
+60 SSSSSS
+61 SS
+62
+63 ff
+64 SSff
+65 ff
+66 SSff
+67 SSf
+68 ff
+69 SSff
+70 f
+71 f
+72 Sffffff
+73 Sfff
+74 Sff
+75 ffff
+76
+77 ff
+78 ff
+79 S
+80 S
+81 S
+82 f
+83 N
+84 Nff
+85
+86 ssSSffffS
+87 ssSSffffS
+88 ssSSffffS
+89 ssSSffffS
+90 ssSSffffS
+91 ssSSffffS
+92 NffSSS
+93 NfffSSS
+94 ssSSffffS
+95 S
+96 S
+97
+98
+99
+100 ff
+101 SSSSSff
+102
+103 SS
+104 m
+105
+106
+107
+108 NS
+109 S
+110 ff
+111 SSSSSff
+112 N
+113 S
+114 S
+115 SSN
+116 SN
+117 SN
+118 S
+119 S
+120 S
+121 S
+122 suSmmmm
+123
+124 S
+125 S
+126 S
+127 S
+128
+129 S
+130 S
+131 SSSS
+132 S
+133 S
+134 SN
+135 SN
+136 ffff
+137 f
+138 S
+139 S
+140 S
+141 S
+142
+143 SS
+144 S
+145 SSffff
+146 SSffff
+147 SSfffSSSSfS
+148 SSfffSSSSfS
+149 f
+150 S
+151 SS
+152 fS
+153 SSfffSSSSfS
+154 SSfffSSSSfS
+155 SSfffSSSSfSff
+156 SSfffSSSSfSff
+157 SSfffSSSSfSff
+158 S
+159 S
+160 S
+161 f
+162
+163 S
+164 Sfff
+165 f
+166 ffff
+167 Sf
+168 S
+169 f
+170 SS
+171 Sf
+172 Sff
+173 S
+174 S
+175 S
+176 S
+177 S
+178 SSf
+179
+180
+181
+182 S
+183 S
+184 S
+
+!timeline_ins_signatures
+0 NffSSS
+1 NffSSS
+2 NfffSSS
+3 NfSSS
+4 NfffSSS
+5 NfSSS
+6 S
+7
+8 SS
+9 S
+10 S
+11 NffSSSS
+12 NffSSSS
+13 T
+14 T
+15 NffSSS
+16
+17 NffSSS
+
+!gvar_types
+10000 $
+10001 $
+10002 $
+10003 $
+10004 $
+10005 $
+10006 $
+10007 $
+10008 %
+10009 %
+10010 %
+10011 %
+10012 %
+10013 %
+10014 %
+10015 %
+10016 $
+10017 %
+10018 $
+10019 %
+10020 $
+10021 $
+10022 $
+10023 $
+10026 %
+10027 %
+10028 %
+10029 %
+10030 %
+10031 %
+10032 %
+10033 $
+10034 %
+10035 $
+10036 $
+10037 $
+10038 $
+10039 $
+10040 %
+10041 %
+10042 %
+10043 %
+10044 $
+10045 $
+10046 $
+10047 $
+10048 %
+10049 %
+10050 %
+10051 %
+10052 %
+10053 %
+10054 %
+10055 %
+10056 %
+10057 %
+10058 %
+10059 %
+10060 %
+10061 %
+10062 %
+10063 %
+10064 %
+10065 %
+10066 $
+10067 $
+10068 %
+10069 %
+10070 %
+10071 $
+10072 $
+10073 $
+10074 $
+10075 $
+10076 $
+10077 %
+10078 %
+10079 %
+10080 %
+10081 $
+10082 %
+10083 %
+10084 $
+10085 %

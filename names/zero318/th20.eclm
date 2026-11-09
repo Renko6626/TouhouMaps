@@ -1,0 +1,554 @@
+!eclmap
+# th20, zero318 naming profile. Load common/th20.eclm first.
+# Upstream names where available; fork-owned extensions are audited in docs/import-audit.json.
+
+!ins_names
+0 nop
+1 enemy_delete
+10 ret
+11 call
+12 jump
+13 jump_equ
+14 jump_neq
+15 async_call
+16 async_call_id
+17 async_stop_id
+18 __async_unknown_flag_set
+19 __async_unknown_flag_clear
+20 __async_unknown_value
+21 async_stop_all
+22 __debug_unknown_A
+23 ecl_time_sub
+24 ecl_time_sub_float
+30 debug_print
+40 frame_enter
+42 push_int
+43 pop_int
+44 push_float
+45 pop_float
+46 lookup_int
+47 lookup_float
+50 math_int_add
+51 math_float_add
+52 math_int_sub
+53 math_float_sub
+54 math_int_mul
+55 math_float_mul
+56 math_int_div
+57 math_float_div
+58 math_int_mod
+59 cmp_int_equ
+60 cmp_float_equ
+61 cmp_int_neq
+62 cmp_float_neq
+63 cmp_int_les
+64 cmp_float_les
+65 cmp_int_leq
+66 cmp_float_leq
+67 cmp_int_gre
+68 cmp_float_gre
+69 cmp_int_geq
+70 cmp_float_geq
+71 cmp_int_not
+72 cmp_float_not
+73 cmp_or
+74 cmp_and
+75 math_bit_xor
+76 math_bit_or
+77 math_bit_and
+78 math_post_dec
+79 math_sin
+80 math_cos
+81 math_circle_pos
+82 math_reduce_angle
+83 math_int_neg
+84 math_float_neg
+85 math_hypot_squared
+86 math_hypot
+87 math_line_angle
+88 math_sqrt
+89 math_angle_diff
+90 math_point_rotate
+91 math_float_interp
+92 math_float_interp_bezier
+93 math_circle_pos_rand
+94 math_ellipse_pos
+95 __math_angle_95
+96 __math_angle_direction_x
+256 unknown_256 # unresolved name
+257 unknown_257 # unresolved name
+258 unknown_258 # unresolved name
+259 unknown_259 # unresolved name
+260 unknown_260 # unresolved name
+261 unknown_261 # unresolved name
+262 unknown_262 # unresolved name
+263 unknown_263 # unresolved name
+264 unknown_264 # unresolved name
+265 unknown_265 # unresolved name
+266 unknown_266 # unresolved name
+267 unknown_267 # unresolved name
+268 unknown_268 # unresolved name
+269 unknown_269 # unresolved name
+270 unknown_270 # unresolved name
+271 unknown_271 # unresolved name
+272 unknown_272 # unresolved name
+273 unknown_273 # unresolved name
+274 unknown_274 # unresolved name
+275 unknown_275 # unresolved name
+276 unknown_276 # unresolved name
+277 unknown_277 # unresolved name
+278 unknown_278 # unresolved name
+279 unknown_279 # unresolved name
+280 unknown_280 # unresolved name
+281 unknown_281 # unresolved name
+282 unknown_282 # unresolved name
+283 unknown_283 # unresolved name
+284 unknown_284 # unresolved name
+285 unknown_285 # unresolved name
+286 unknown_286 # unresolved name
+287 unknown_287 # unresolved name
+288 unknown_288 # unresolved name
+289 unknown_289 # unresolved name
+290 unknown_290 # unresolved name
+291 unknown_291 # unresolved name
+292 unknown_292 # unresolved name
+293 unknown_293 # unresolved name
+294 unknown_294 # unresolved name
+295 unknown_295 # unresolved name
+296 unknown_296 # unresolved name
+297 unknown_297 # unresolved name
+298 unknown_298 # unresolved name
+299 unknown_299 # unresolved name
+300 enemy_create_rel
+301 enemy_create_abs
+302 anm_source
+303 anm_set_slot
+304 enemy_create_rel_mirror
+305 enemy_create_abs_mirror
+306 anm_set_slot_main
+307 anm_create_front
+308 anm_create_zero_front
+309 enemy_create_rel_stage
+310 enemy_create_abs_stage
+311 enemy_create_rel_stage_mirror
+312 enemy_create_abs_stage_mirror
+313 anm_play_attack
+314 anm_create_back
+315 anm_create_front_rotated
+316 anm_play_attack_ex
+317 anm_interrupt_slot
+318 anm_play_main
+319 anm_rotate_slot
+320 anm_move_position_slot
+321 __enemy_create_rel_2
+322 __anm_set_slot_anchor_index
+323 anm_death_effects
+324 enemy_id_get_position
+325 anm_color_slot
+326 anm_color_slot_interp
+327 anm_alpha_slot
+328 anm_alpha_slot_interp
+329 anm_scale_slot
+330 anm_scale_slot_interp
+331 anm_alpha2_slot
+332 anm_alpha2_slot_interp
+333 anm_move_position_slot_interp
+334 effect_create_special
+335 anm_scale2_slot
+336 anm_layer_slot
+337 anm_blend_mode_slot
+338 anm_create_rel_front_rotated
+339 __anm_create_zero_front_and_run
+340 enemy_id_delete
+341 enemy_flag_set_create_familiars
+342 enemy_flag_clear_create_familiars
+343 enemy_flag_anchor_to_parent
+344 enemy_id_exists2
+345 unknown_345 # unresolved name
+346 unknown_346 # unresolved name
+347 unknown_347 # unresolved name
+348 unknown_348 # unresolved name
+349 unknown_349 # unresolved name
+350 unknown_350 # unresolved name
+351 unknown_351 # unresolved name
+352 unknown_352 # unresolved name
+353 unknown_353 # unresolved name
+354 unknown_354 # unresolved name
+355 unknown_355 # unresolved name
+356 unknown_356 # unresolved name
+357 unknown_357 # unresolved name
+358 unknown_358 # unresolved name
+359 unknown_359 # unresolved name
+360 unknown_360 # unresolved name
+361 unknown_361 # unresolved name
+362 unknown_362 # unresolved name
+363 unknown_363 # unresolved name
+364 unknown_364 # unresolved name
+365 unknown_365 # unresolved name
+366 unknown_366 # unresolved name
+367 unknown_367 # unresolved name
+368 unknown_368 # unresolved name
+369 unknown_369 # unresolved name
+370 unknown_370 # unresolved name
+371 unknown_371 # unresolved name
+400 move_position_abs
+401 move_position_abs_interp
+402 move_position_rel
+403 move_position_rel_interp
+404 move_velocity_abs
+405 move_velocity_abs_interp
+406 move_velocity_rel
+407 move_velocity_rel_interp
+408 move_orbit_abs
+409 move_orbit_abs_interp
+410 move_orbit_rel
+411 move_orbit_rel_interp
+412 move_rand_interp_abs
+413 move_rand_interp_rel
+414 move_to_boss0_abs
+415 move_to_boss0_rel
+416 move_position_add_abs
+417 move_position_add_rel
+418 move_origin_abs
+419 move_origin_rel
+420 move_ellipse_abs
+421 move_ellipse_abs_interp
+422 move_ellipse_rel
+423 move_ellipse_rel_interp
+424 enemy_flag_mirror
+425 move_bezier_abs
+426 move_bezier_rel
+427 move_stop
+428 move_velocity_no_mirror_abs
+429 move_velocity_no_mirror_abs_interp
+430 move_velocity_no_mirror_rel
+431 move_velocity_no_mirror_rel_interp
+432 move_to_enemy_id_abs
+433 move_to_enemy_id_rel
+434 move_axis_interp_abs
+435 move_axis_interp_rel
+436 __move_position_offset_abs_interp
+437 __move_position_offset_rel_interp
+438 __move_axis_offset_abs_interp
+439 __move_axis_offset_rel_interp
+440 move_angle_abs
+441 move_angle_abs_interp
+442 move_angle_rel
+443 move_angle_rel_interp
+444 move_speed_abs
+445 move_speed_abs_interp
+446 move_speed_rel
+447 move_speed_rel_interp
+448 __move_set_slot_count
+449 unknown_449 # unresolved name
+450 unknown_450 # unresolved name
+451 unknown_451 # unresolved name
+452 unknown_452 # unresolved name
+453 unknown_453 # unresolved name
+454 unknown_454 # unresolved name
+455 unknown_455 # unresolved name
+456 unknown_456 # unresolved name
+457 unknown_457 # unresolved name
+458 unknown_458 # unresolved name
+459 unknown_459 # unresolved name
+460 unknown_460 # unresolved name
+461 unknown_461 # unresolved name
+462 unknown_462 # unresolved name
+463 unknown_463 # unresolved name
+500 enemy_set_hitbox
+501 enemy_set_collision
+502 enemy_flags_set
+503 enemy_flags_clear
+504 move_bounds_set
+505 move_bounds_disable
+506 item_bonus_count_reset
+507 item_bonus_count_set
+508 item_drop_area
+509 drop_item_rewards
+510 item_reward_set
+511 enemy_life_set
+512 boss_set
+513 phase_timer_clear
+514 callback_ex
+515 enemy_invincible_timer
+516 effect_sound
+517 effect_screen_shake
+518 msg_read
+519 msg_wait
+520 boss_wait
+521 timer_callback_sub
+522 spellcard_start
+523 spellcard_end
+524 chapter_set
+525 enemy_kill_all
+526 player_protect_range
+527 enemy_lifebar_color
+528 spellcard_start_2
+529 set_int_difficulty
+530 set_float_difficulty
+531 spellcard_start_difficulty
+532 spellcard_start_difficulty_1
+533 spellcard_start_difficulty_2
+534 boss_set_life_count
+535 enemy_no_collision_timer
+536 spellcard_flag_timeout_set
+537 __spellcard_flag_anm_unknown
+538 enemy_flag_homing_disable
+539 laser_clear_all
+540 enemy_bomb_shield
+541 game_speed_set
+542 ecl_time_sub_difficulty
+543 __enemy_flag_unknown_A
+544 enemy_set_kill_id
+545 enemy_kill_all_id
+546 anm_layer_base
+547 enemy_damage_sound
+548 stage_logo
+549 enemy_id_exists
+550 death_callback_sub
+551 std_fog_interp
+552 enemy_flag_mirror2
+553 enemy_limit_set
+554 bullet_bounce_bounds_set
+555 __enemy_kill_effect_create
+556 drop_item_rewards_force
+557 enemy_flag_hitbox_shape
+558 enemy_set_hitbox_rotation
+559 enemy_bomb_shield_multiplier
+560 enemy_kill
+561 __spellcard_flag_unknown_A
+562 __enemy_flag_armored
+563 __enemy_set_chapter_spawn_weight
+564 __enemy_add_spawn_weight_to_destroy
+565 enemy_kill_all_no_callbacks
+566 __enemy_life_set_current
+567 item_timed_bonus_count_set
+568 item_timed_bonus_duration
+569 nop569
+570 set_int_difficulty_ex
+571 set_float_difficulty_ex
+572 __item_reward_override
+573 enemy_kill_all_stones
+574 __ecl_time_dec_offscreen_related
+575 __player_flag_unknown_A
+600 shooter_reset
+601 shoot_now
+602 bullet_sprite
+603 shoot_offset
+604 shoot_angle
+605 bullet_speed
+606 bullet_count
+607 shoot_aim_mode
+608 bullet_sound
+609 bullet_effects
+610 bullet_effects_ex
+611 bullet_effects_add
+612 bullet_effects_add_ex
+613 bullet_cancel
+614 shooter_copy
+615 bullet_cancel_radius
+616 bullet_clear_radius
+617 set_float_angle_to_player_from_point
+618 shoot_offset_circle
+619 shoot_spawn_distance
+620 __shoot_origin
+621 enemy_fog_spawn
+622 std_interrupt
+623 boss_flag_hide_hud
+624 ex_ins_repeat
+625 enemy_damage_ex
+626 enemy_hitbox_ex
+627 bullet_cancel_weak_radius
+628 bullet_clear_weak_radius
+629 ex_ins_call
+630 score_add
+631 __ex_ins_repeat2
+632 bullet_effects_set_string
+633 __bullet_effects_prev
+634 unknown_634 # unresolved name
+635 unknown_635 # unresolved name
+636 unknown_636 # unresolved name
+637 unknown_637 # unresolved name
+638 unknown_638 # unresolved name
+639 unknown_639 # unresolved name
+640 unknown_640 # unresolved name
+641 unknown_641 # unresolved name
+700 laser_size_data
+701 laser_timing_data
+702 laser_line_create
+703 laser_infinite_create
+704 laser_offset
+705 laser_target
+706 laser_speed
+707 laser_width
+708 laser_angle
+709 laser_rotate
+710 laser_clear
+711 laser_curve_create
+712 __bullet_cancel_weak_rectangle
+713 laser_beam_create
+714 __laser_beam_flag_unknown_A
+800 enemy_id_change_sub
+801 enemy_id_get_position_crash
+802 boss_callback
+900 unknown_900 # unresolved name
+901 __debug_skip_start
+902 __debug_skip_stop
+904 unknown_904 # unresolved name
+1000 unknown_1000 # unresolved name
+1001 __stone_enemy_spawn
+1002 __enemy_manager_set_unknown_F
+1003 __stone_value_set
+1004 unknown_1004 # unresolved name
+1005 unknown_1005 # unresolved name
+1006 unknown_1006 # unresolved name
+1007 unknown_1007 # unresolved name
+1008 unknown_1008 # unresolved name
+1009 unknown_1009 # unresolved name
+1010 unknown_1010 # unresolved name
+1011 unknown_1011 # unresolved name
+1012 unknown_1012 # unresolved name
+1013 unknown_1013 # unresolved name
+1014 unknown_1014 # unresolved name
+1015 unknown_1015 # unresolved name
+1017 unknown_1017 # unresolved name
+1018 unknown_1018 # unresolved name
+1019 unknown_1019 # unresolved name
+1020 unknown_1020 # unresolved name
+1021 unknown_1021 # unresolved name
+1022 unknown_1022 # unresolved name
+1023 unknown_1023 # unresolved name
+1024 unknown_1024 # unresolved name
+1025 unknown_1025 # unresolved name
+1026 unknown_1026 # unresolved name
+1027 unknown_1027 # unresolved name
+1028 unknown_1028 # unresolved name
+1029 unknown_1029 # unresolved name
+1030 unknown_1030 # unresolved name
+1031 unknown_1031 # unresolved name
+1032 unknown_1032 # unresolved name
+1033 unknown_1033 # unresolved name
+1034 unknown_1034 # unresolved name
+1035 unknown_1035 # unresolved name
+1036 unknown_1036 # unresolved name
+1037 unknown_1037 # unresolved name
+1038 unknown_1038 # unresolved name
+1039 unknown_1039 # unresolved name
+1040 unknown_1040 # unresolved name
+
+!gvar_names
+-10000 RAND_INT
+-9999 RAND_FLOAT
+-9998 RAND_ANGLE
+-9997 SELF_X
+-9996 SELF_Y
+-9995 SELF_X_ABS
+-9994 SELF_Y_ABS
+-9993 SELF_X_REL
+-9992 SELF_Y_REL
+-9991 PLAYER_X
+-9990 PLAYER_Y
+-9989 PLAYER_ANGLE
+-9988 PHASE_TIMER
+-9987 RAND_FLOAT_SIGNED
+-9986 PHASE_TIMEOUT
+-9985 EI0
+-9984 EI1
+-9983 EI2
+-9982 EI3
+-9981 EF0
+-9980 EF1
+-9979 EF2
+-9978 EF3
+-9977 LAST_FRAME_X_DELTA
+-9976 LAST_FRAME_Y_DELTA
+-9975 SELF_ORIGIN_X_ABS
+-9974 SELF_ORIGIN_Y_ABS
+-9973 SELF_ORIGIN_X_REL
+-9972 SELF_ORIGIN_Y_REL
+-9971 SELF_ANGLE_ABS
+-9970 SELF_ANGLE_REL
+-9969 SELF_SPEED_ABS
+-9968 SELF_SPEED_REL
+-9967 SELF_ORBIT_RADIUS_ABS
+-9966 SELF_ORBIT_RADIUS_REL
+-9965 PLAYER_X2
+-9964 PLAYER_Y2
+-9963 BOSS0_X
+-9962 BOSS0_Y
+-9961 ANM_SLOT0_SCRIPT_ID
+-9960 RANK
+-9959 DIFFICULTY
+-9958 SELF_ORBIT
+-9957 TRUE_VAR
+-9956 PLAYER_ANGLE_ABS
+-9955 PLAYER_ANGLE_REL
+-9954 SELF_LIFE
+-9953 EASY
+-9952 NORMAL
+-9951 HARD
+-9950 LUNATIC
+-9949 PLAYER_DEATHS
+-9948 PLAYER_BOMBS_USED
+-9947 SPELL_CAPTURE
+-9946 ENEMY_COUNT
+-9945 PLAYER_SHOT
+-9944 PLAYER_DISTANCE
+-9943 BOSS0_EI0
+-9942 BOSS0_EI1
+-9941 BOSS0_EI2
+-9940 BOSS0_EI3
+-9939 BOSS0_EF0
+-9938 BOSS0_EF1
+-9937 BOSS0_EF2
+-9936 BOSS0_EF3
+-9935 EF4
+-9934 EF5
+-9933 EF6
+-9932 EF7
+-9931 PREV_ENEMY_ID
+-9930 PLAYER_POWER
+-9927 __REPLAY_UNKNOWN_A
+-9926 GI0
+-9925 GI1
+-9924 GI2
+-9923 GI3
+-9922 GF0
+-9921 GF1
+-9920 GF2
+-9919 GF3
+-9918 GF4
+-9917 GF5
+-9916 GF6
+-9915 GF7
+-9914 SELF_ENEMY_ID
+-9911 BOSS0_ORBIT
+-9910 BOSS0_SPEED_ABS
+-9909 PARENT_ENEMY_ID
+-9908 ENEMY_COUNT_KILLABLE
+-9907 SPELL_PRACTICE_ID
+-9906 SELF_MIRROR
+-9905 CHAPTER
+-9904 PLAYER_DEATHS_GLOBAL
+-9899 ACHIEVEMENT_MODE
+-9898 BULLET_COUNT
+-9896 __ENEMY_MANAGER_UNKNOWN_F
+-9895 WI0
+-9894 WI1
+-9893 WI2
+-9892 WI3
+-9889 __ENEMY_COUNT_UNKNOWN_FLAG_D
+-9887 STORY_BOSS_DIFFICULTY
+-9886 STORY_BOSS_FINAL_PHASE
+-9885 DIFFICULTY_GLOBAL
+-9884 OPPOSITE_PLAYER_X
+-9883 OPPOSITE_PLAYER_Y
+-9882 SELF_GAME_SIDE
+-9881 PLAYER_SUMMON_METER
+-9880 PLAYER_STORY_STONE_COLOR
+-9879 __ENEMY_OFFSCREEN_RELATED_WTF_IDK
+-9878 RAND_SIGNED_ONE
+-9877 __BULLET_COUNT_UNKNOWN_A2
+-9876 SPELL_ACTIVE
+-9875 BOSS_ALIVE
+-9874 BOSS_DISTANCE

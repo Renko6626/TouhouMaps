@@ -1,0 +1,316 @@
+!eclmap
+# Stock th11 native thecl definitions. Source: thpatch/thtk@892114a0fcaa0bbdaaecf3cb4ad56f758683fb40.
+# Tables: th10_fmts, alcostg_fmts, th11_fmts. Later tables override earlier tables.
+# Global types: zero318 first, then Priw8 additions; see docs/import-audit.json.
+# Compiler-known fallback entries are not proof of game-side implementation.
+
+!ins_signatures
+0
+1
+10
+11 m*D
+12 ot
+13 ot
+14 ot
+15 m*D
+16 mS*D
+17 S
+21
+40 S
+42 S
+43 S
+44 f
+45 f
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78 S
+79
+80
+81 ffff
+82 f
+83 S
+84
+85
+86 fff
+87 fffff
+88
+89 SSS
+256 mffSSS
+257 mffSSS
+258 S
+259 SS
+260 mffSSS
+261 mffSSS
+262 SS
+263 SS
+264 SS
+265 mffSSS
+266 mffSSS
+267 mffSSS
+268 mffSSS
+269 S
+270 mffSSSS
+271 mffSSSS
+272 SS
+273 SSf
+274 SS
+275 SS
+276
+277 ff
+278 S
+280 ff
+281 SSff
+282 ff
+283 SSfS
+284 ff
+285 SSff
+286 ff
+287 SSff
+288 ffff
+289 SSfff
+290 ffff
+291 SSffS
+292 SSf
+293 SSf
+294
+295
+296 SSf
+297 ff
+298 ff
+299 ff
+300 ffffff
+301 ffffff
+302 ffffff
+303 ffffff
+305 Sffffff
+306 Sffffff
+307
+320 ff
+321 ff
+322 S
+323 S
+324 ffff
+325
+326
+327 SS
+328 ff
+329
+330 S
+331 S
+332 S
+333
+334 SSSm
+335 S
+336 S
+337 SSS
+338 S
+339
+340
+341 Sm
+342 SSSx
+343
+344 S
+345
+346 f
+347 SfS
+348 SSSx
+349 ffff
+350 ffffff
+351 fff
+352 SSSS
+353 SSSSSS
+354 SSS
+355 SSSSS
+356 fffff
+357 SSSx
+358 SSSx
+359 SSSx
+360 S
+361 S
+362
+363
+364 S
+365
+366 SS
+367 f
+368 SSSS
+369 S
+370 S
+371 S
+400 S
+401 S
+402 SSS
+403 Sff
+404 Sff
+405 Sff
+406 SSS
+407 SS
+408 SSS
+409 SSSSSSff
+410
+411 SS
+412 SSffffSf
+413 SSSfffSSSSfS
+414 Sff
+415 Sff
+416 Sf
+417 Sf
+418 Sf
+419 Sf
+420 f
+421 f
+422 Sffffff
+423 Sffffffffff
+424 Sffff
+425 SSSSSSS
+426 SSSSSSSSSSS
+427 SSSSS
+428 SSffSfSf
+429 SSSfffSSSSfS
+430 Sff
+431 SSffSfff
+432 SSSfffSSSSfS
+433 SSffSfff
+434 SSSfffSSSSfS
+435 Sffffffff
+436 SSSSSSSSS
+437 Sff
+438 Sf
+439 Sff
+440 fS
+441 S
+442 S
+443 S
+444 S
+445 S
+447 f
+448 S
+449 S
+450 S
+500 S
+
+!gvar_types
+-10000 $
+-9999 %
+-9998 %
+-9997 %
+-9996 %
+-9995 %
+-9994 %
+-9993 %
+-9992 %
+-9991 %
+-9990 %
+-9989 %
+-9988 $
+-9987 %
+-9986 $
+-9985 $
+-9984 $
+-9983 $
+-9982 $
+-9981 %
+-9980 %
+-9979 %
+-9978 %
+-9977 %
+-9976 %
+-9975 %
+-9974 %
+-9973 %
+-9972 %
+-9971 %
+-9970 %
+-9969 %
+-9968 %
+-9967 %
+-9966 %
+-9965 %
+-9964 %
+-9963 %
+-9962 %
+-9961 $
+-9960 $
+-9959 $
+-9958 %
+-9957 $
+-9956 %
+-9955 %
+-9954 $
+-9953 $
+-9952 $
+-9951 $
+-9950 $
+-9949 $
+-9948 $
+-9947 $
+-9946 $
+-9945 $
+-9944 %
+-9943 $
+-9942 $
+-9941 $
+-9940 $
+-9939 %
+-9938 %
+-9937 %
+-9936 %
+-9935 %
+-9934 %
+-9933 %
+-9932 %
+-9931 $
+-9930 $
+-1 ?
+0 ?
+4 ?
+8 ?
+12 ?
+16 ?
+20 ?
+24 ?
+28 ?
+32 ?
+36 ?
+40 ?
+44 ?
+48 ?
+52 ?
+56 ?
+60 ?
+64 ?
+68 ?
+72 ?
+76 ?
+80 ?
+84 ?
+88 ?
+92 ?
+96 ?
+100 ?

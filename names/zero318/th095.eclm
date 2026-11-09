@@ -1,0 +1,296 @@
+!eclmap
+# th95, zero318 naming profile. Load common/th095.eclm first.
+# Upstream names where available; fork-owned extensions are audited in docs/import-audit.json.
+
+!ins_names
+0 nop
+1 enemy_delete
+2 wait
+3 debug_watch
+4 jump
+5 _loop
+6 set_int
+7 set_float
+8 set_int_rand_sign
+9 set_float_rand_sign
+10 math_int_add_assign
+11 math_int_sub_assign
+12 math_int_mul_assign
+13 math_int_div_assign
+14 math_int_mod_assign
+15 math_float_add_assign
+16 math_float_sub_assign
+17 math_float_mul_assign
+18 math_float_div_assign
+19 math_float_mod_assign
+20 math_int_add
+21 math_int_sub
+22 math_int_mul
+23 math_int_div
+24 math_int_mod
+25 math_float_add
+26 math_float_sub
+27 math_float_mul
+28 math_float_div
+29 math_float_mod
+30 math_inc
+31 math_dec
+32 math_sin
+33 math_cos
+34 math_line_angle
+35 math_float_lerp
+36 math_float_interp
+37 math_reduce_angle
+38 math_circle_pos_fast
+39 math_distance
+40 jump_int_equ
+41 jump_float_equ
+42 jump_int_neq
+43 jump_float_neq
+44 jump_int_lss
+45 jump_float_lss
+46 jump_int_leq
+47 jump_float_leq
+48 jump_int_gre
+49 jump_float_gre
+50 jump_int_geq
+51 jump_float_geq
+52 call
+53 ret
+54 anm_set_main
+55 anm_set_poses_ex
+56 anm_set_poses
+57 unknown_57 # unresolved name
+58 anm_set_boss_main
+59 anm_set_boss_poses_ex
+60 anm_set_boss_poses
+61 unknown_61 # unresolved name
+62 anm_play_attack
+63 move_position
+64 move_position_interp
+65 move_velocity
+66 move_velocity_interp
+67 move_rand_interp
+68 move_towards_player
+69 move_towards_player_interp
+70 move_angular_velocity
+71 move_acceleration
+72 move_orbit_abs
+73 move_orbit_rel
+74 move_as_orbit_ex
+75 move_bounds_set
+76 move_bounds_disable
+77 enemy_set_hitbox
+78 enemy_set_low_damage_hitbox
+79 enemy_flags_load
+80 enemy_flags_set
+81 enemy_flags_clear
+82 player_protect_range
+83 enemy_create
+84 enemy_create_rel
+85 enemy_kill_all
+86 bullet_fan_aimed
+87 bullet_fan
+88 bullet_circle_aimed
+89 bullet_circle
+90 bullet_offset_circle_aimed
+91 bullet_offset_circle
+92 bullet_random_angle
+93 bullet_random_speed
+94 bullet_random
+95 shoot_interval
+96 shoot_interval_delayed
+97 shoot_disable
+98 shoot_enable
+99 shoot_now
+100 shoot_offset
+101 bullet_effects
+102 bullet_cancel
+103 bullet_sound
+104 spellcard_start
+105 spellcard_end
+106 effect_sound
+107 enemy_interrupt
+108 enemy_interrupt_set
+109 boss_set
+110 unknown_110 # unresolved name
+111 unknown_111 # unresolved name
+112 death_callback_sub
+113 enemy_life_set
+114 boss_timer_set
+115 life_callback_ex
+116 timer_callback_ex
+117 async_call
+118 ex_ins_call
+119 ex_ins_repeat
+120 anm_flag_rotation
+121 ecl_time_add
+122 unknown_122 # unresolved name
+123 unknown_123 # unresolved name
+124 anm_interrupt_main
+125 unknown_125 # unresolved name
+126 enemy_flag_disable_call_stack
+127 unknown_127 # unresolved name
+128 boss_phase_advance
+129 unknown_129 # unresolved name
+130 enemy_flag_grazeable
+131 trail_set
+132 anm_layer
+133 enemy_invincible_timer
+134 unknown_134 # unresolved name
+135 anm_rotate
+136 math_circle_pos
+137 __set_float_rand_angle_to_bottom
+138 __enemy_flag_bomb_related_A
+139 __enemy_set_previous_life
+140 __enemy_flag_unknown_A
+141 __set_photos_required
+142 __set_unknown_flag_A
+143 __set_unknown_flag_and_timer
+144 __nice_shot_thing
+145 laser_beam_create
+146 laser_beam_create_aimed
+147 __laser_line_create_A
+148 __laser_line_create_A_aimed
+149 __set_unknown_multiplier
+150 anm_create
+151 anm_create_slot
+152 anm_interrupt_slot
+153 __laser_line_create_B
+154 __laser_line_create_B_aimed
+155 __laser_line_create_C
+156 __laser_line_create_C_aimed
+157 __laser_line_create_D
+158 __enemy_flag_unknown_B
+159 unknown_159 # unresolved name
+160 unknown_160 # unresolved name
+161 unknown_161 # unresolved name
+162 unknown_162 # unresolved name
+163 unknown_163 # unresolved name
+164 unknown_164 # unresolved name
+165 unknown_165 # unresolved name
+166 unknown_166 # unresolved name
+167 unknown_167 # unresolved name
+168 unknown_168 # unresolved name
+169 unknown_169 # unresolved name
+170 unknown_170 # unresolved name
+171 unknown_171 # unresolved name
+172 unknown_172 # unresolved name
+173 unknown_173 # unresolved name
+174 unknown_174 # unresolved name
+175 unknown_175 # unresolved name
+176 unknown_176 # unresolved name
+177 unknown_177 # unresolved name
+178 unknown_178 # unresolved name
+179 unknown_179 # unresolved name
+180 unknown_180 # unresolved name
+181 unknown_181 # unresolved name
+182 unknown_182 # unresolved name
+183 unknown_183 # unresolved name
+184 unknown_184 # unresolved name
+
+!timeline_ins_names
+0 enemy_create
+1 enemy_create_mirror
+2 enemy_create_random_x_range
+3 enemy_create_random_x
+4 enemy_create_random_x_range_mirror
+5 enemy_create_random_x_mirror
+6 unknown_6 # unresolved name
+7 unknown_7 # unresolved name
+8 boss_interrupt
+9 unknown_9 # unresolved name
+10 boss_wait
+11 enemy_create_drops
+12 enemy_create_drops_mirror
+13 unknown_13 # unresolved name
+14 unknown_14 # unresolved name
+15 enemy_create_force
+16 unknown_16 # unresolved name
+17 unknown_17 # unresolved name
+
+!gvar_names
+10000 I0
+10001 I1
+10002 I2
+10003 I3
+10004 I4
+10005 I5
+10006 I6
+10007 I7
+10008 F0
+10009 F1
+10010 F2
+10011 F3
+10012 F4
+10013 F5
+10014 F6
+10015 F7
+10016 RAND_INT
+10017 RAND_FLOAT
+10018 RAND_INT_SIGNED
+10019 RAND_FLOAT_SIGNED
+10020 IC0
+10021 IC1
+10022 IC2
+10023 IC3
+10026 SELF_X
+10027 SELF_Y
+10028 SELF_Z
+10029 PLAYER_X
+10030 PLAYER_Y
+10031 PLAYER_Z
+10032 PLAYER_ANGLE
+10033 SELF_TIME
+10034 PLAYER_DISTANCE
+10035 SELF_LIFE
+10036 PARAM_A
+10037 PARAM_B
+10038 PARAM_C
+10039 PARAM_D
+10040 PARAM_R
+10041 PARAM_S
+10042 PARAM_M
+10043 PARAM_N
+10044 ARG_A
+10045 ARG_B
+10046 ARG_C
+10047 ARG_D
+10048 ARG_R
+10049 ARG_S
+10050 ARG_M
+10051 ARG_N
+10052 SELF_ANGLE
+10053 SELF_ANGLE_VEL
+10054 SELF_SPEED
+10055 SELF_ACCEL
+10056 SELF_ORBIT_RADIUS
+10057 ORIGIN_X
+10058 ORIGIN_Y
+10059 ORIGIN_Z
+10060 SELF_ORBIT
+10061 SELF_ORBIT_VEL
+10062 TARGET_X
+10063 TARGET_Y
+10064 TARGET_Z
+10065 RAND_ANGLE
+10066 LAST_FRAME_DAMAGE
+10067 BOSS_ID
+10068 LAST_FRAME_X_DELTA
+10069 LAST_FRAME_Y_DELTA
+10070 LAST_FRAME_Z_DELTA
+10071 LIFE_THRES_1
+10072 LIFE_THRES_2
+10073 LIFE_THRES_3
+10074 LIFE_THRES_4
+10075 ITEM_REWARD
+10076 SCORE_REWARD
+10077 F8
+10078 F9
+10079 F10
+10080 F11
+10081 __PHOTOS_TAKEN
+10082 BOSS0_X
+10083 BOSS0_Y
+10084 __PHOTOS_ATTEMPTED
+10085 PLAYER_SHOOT_ANGLE

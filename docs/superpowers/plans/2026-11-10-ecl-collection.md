@@ -31,10 +31,10 @@
 
 **Interfaces:** Produce one native map per target version, containing only `ins_signatures`, `timeline_ins_signatures`, and `gvar_types`. Source keys are version and opcode/register, never translated names.
 
-- [ ] Pin zero318, Priw8, and thtk source commits and record source selection.
-- [ ] Snapshot native thtk signatures using the fallback rules in `th06_find_format`, `th06_find_timeline_format`, and `th10_find_format`; preserve empty signatures.
-- [ ] Merge global type declarations from available upstream maps; record disagreements and chosen source explicitly.
-- [ ] Inspect signatures for TH06/08/12/13/18/19/20 against upstream definitions.
+- [x] Pin zero318, Priw8, and thtk source commits and record source selection.
+- [x] Snapshot native thtk signatures using the fallback rules in `th06_find_format`, `th06_find_timeline_format`, and `th10_find_format`; preserve empty signatures.
+- [x] Merge global type declarations from available upstream maps; record disagreements and chosen source explicitly.
+- [x] Inspect signatures for TH06/08/12/13/18/19/20 against upstream definitions.
 
 ### Task 2: Both native name profiles
 
@@ -42,10 +42,10 @@
 
 **Interfaces:** Exactly two name maps per version, with `ins_names`, `timeline_ins_names`, and `gvar_names` only; every declared name points to a key in that version's common layer.
 
-- [ ] Preserve available upstream names and collect unambiguous name correspondences from overlapping profiles.
-- [ ] Fill missing style profiles using only those correspondences; label unmatched keys with neutral names and record the outcome per entry.
-- [ ] Exclude custom/out-of-table instructions; resolve identifier collisions visibly in the audit.
-- [ ] Document loading order, coverage, synthesized-name counts, source/licensing limits, and the Studio follow-up boundary.
+- [x] Preserve available upstream names and collect unambiguous name correspondences from overlapping profiles.
+- [x] Fill missing style profiles using only those correspondences; label unmatched keys with neutral names and record the outcome per entry.
+- [x] Exclude custom/out-of-table instructions; resolve identifier collisions visibly in the audit.
+- [x] Document loading order, coverage, synthesized-name counts, source/licensing limits, and the Studio follow-up boundary.
 
 ### Task 3: Validate and publish a review branch
 
@@ -53,8 +53,8 @@
 
 **Interfaces:** `python3 scripts/validate.py` returns nonzero for invalid native sections, missing profiles/coverage, ambiguous identifiers, or invalid types. No third-party Python packages.
 
-- [ ] Add the small validator against the actual `.eclm` files, with specific TH18 style examples and early timeline checks.
-- [ ] Run it against valid files and temporary broken copies to prove meaningful failures without keeping duplicate tests.
-- [ ] Compile the pinned upstream map loader with a temporary driver and load all 44 common/name combinations; inspect diagnostics and selected loaded values.
-- [ ] Review data/provenance and the complete diff; record actual checks and limitations.
-- [ ] Commit and push `studio-ecl` to the user's new fork without changing upstream root maps or the default branch.
+- [x] Add the small validator against the actual `.eclm` files, with specific TH18 style examples and early timeline checks.
+- [x] Run it against valid files and temporary broken copies to prove meaningful failures without keeping duplicate tests.
+- [x] Compile the pinned upstream map loader with a temporary driver and load all 44 common/name combinations; inspect diagnostics and selected loaded values.
+- [x] Review data/provenance and the complete diff; record actual checks and limitations.
+- [x] Commit and push `studio-ecl` to the user's new fork without changing upstream root maps or the default branch.
